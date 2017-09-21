@@ -53,6 +53,19 @@ stroke(255);
 strokeWeight(2);
 rect(-162.5, -162.5, 325, 325, 40);
 
+stroke(0);
+strokeWeight(2);
+let end4 = map(mouseX, 0, width, 0, 360);
+noFill();
+arc(0, 185, 25, 25, 0, end4);
+arc(0, -185, 25, 25, 0, end4)
+arc(185, 0, 25, 25, 0, end4)
+arc(-185, 0, 25, 25, 0, end4)
+
+
+
+
+
 /*stroke(0);
 line(0, 0, 0, 162);
 line(0, 0, 162, 0);
